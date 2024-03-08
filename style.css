@@ -31,6 +31,7 @@ body {
   */
   /* shorthand = background:color image repeat position/size */
   background: var(--bg-url) no-repeat top center/cover;
+  height: 100vh;
 }
 body * {
   font-family: "Inter", sans-serif;
@@ -56,7 +57,7 @@ body * {
 #switch {
   position: relative;
   width: 64px;
-  margin: 4px auto ;
+  margin: 4px auto;
 }
 #switch button {
   width: 32px;
@@ -143,4 +144,13 @@ footer {
   padding: 24px;
   text-align: center;
   font-size: 14px;
+}
+@media (min-widht: 700px) {
+  :root {
+    --bg-url: url(./assets/bg-desktop.jpg);
+  }
+
+  .light {
+    --bg-url: url(./assets/bg-desktop-light.jpg);
+  }
 }
