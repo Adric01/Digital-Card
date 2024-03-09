@@ -78,7 +78,7 @@ body * {
   animation: slide-side 0.3s forwards;
 }
 #switch button:hover {
-outline: 8px solid var(--highlight-color);
+  outline: 8px solid var(--highlight-color);
 }
 
 #switch span {
@@ -95,7 +95,7 @@ ul {
   list-style: none;
   display: flex;
   flex-direction: column;
-  gap: 16px;
+  gap: 20px;
 
   padding: 24px 0;
 }
